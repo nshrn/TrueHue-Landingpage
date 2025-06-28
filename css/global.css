@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #E8EFFF;
+    font-family: 'Bellota', sans-serif;
+    color: #404F87;
+}
+
+.logoHeader {
+    display: flex; 
+    align-items: center;
+    font-family: 'Bellota', sans-serif;
+}
+
+.logoHeader img {
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 2.5rem;
+    color: #404F87;
+    font-family: 'Bellota', sans-serif;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #404F87;
+    font-weight: bold;
+    font-family: 'Bellota', sans-serif;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #A7C0F7;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #404F87;
+    font-weight: bold;
+    font-family: 'Bellota', sans-serif;
+}
+
+body {
+    background-color: #F2F6FF;
+    color: #404F87;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #E8EFFF;
+    text-align: center;
+    padding: 10px;
+    color: #404F87;
+}
+
+footer a {
+    text-decoration: none;
+    color: #9CB1E1;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #404F87;
+}
+
+footer .social-icons img {
+    width: 24px;
+    margin: 20px 10px 20px 10px;
+}
+
+footer .social-icons h3 {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+footer p {
+    font-size: 12px;
+    color: #9CB1E1;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}

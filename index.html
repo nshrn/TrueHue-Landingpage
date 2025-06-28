@@ -5,41 +5,79 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>TrueHue - Home</title>
 
-       <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
-      <style>@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
-</style>
+       <link rel="shortcut icon" href="assets/icons/logo.png" type="image/x-icon" />
+       <!-- <link rel="stylesheet" href="index.html">
+       <link rel="stylesheet" href="about.html">
+       <link rel="stylesheet" href="team.html"> -->
+       <link rel="stylesheet" href="css/global.css">
+       <link rel="stylesheet" href="css/pages/about.css">
+       <link rel="stylesheet" href="css/pages/index.css">
+       <link rel="stylesheet" href="css/pages/team.css">
 </head>
+ 
 <body>
-   <header>
-      <div class="logoToHeader">
-         <img src="assets/icons/logo.png" alt="TrueHue-Logo" style="width: 166px; height: 166px;">
-         <h1>TrueHue</h1>
-      </div>
-      <nav>
-         <a href="Home" class="nav-links">Home</a>
-         <a href="About" class="nav-links">About</a>
-         <a href="Get App" class="nGetApp-btn">Get App</a>
-      </nav>
-   </header>
+    <header>
+        <div class="logoHeader">
+            <img src="assets/icons/logo.png" alt="TrueHue Logo">
+            <h1>TrueHue</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="#" class="cta-button">Get the App</a> <!-- This button can be linked to the app download page -->
+        </nav>
+    </header>
+    <main class="home-page">
 
-   <main>
-      <h2>Welcome to TrueHue</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ipsa dolorum consequuntur soluta id minima sit autem molestiae earum voluptatum ea hic architecto, ipsum adipisci officiis nisi laborum ad maiores?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem aliquid hic enim! Aliquam consequuntur vel nemo autem, veritatis aspernatur, nam, cupiditate assumenda similique ex nesciunt impedit debitis quod quia!</p>
-   </main>
+      <section class="whatVideo-container">
+         <h2>What is TrueHue?</h2>
+         <iframe width="560" height="315" src="assets/what-video-sample.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
 
+      <section class="featured-container section-layout">
+        <h2>Pure You, True You</h2>
 
-   <footer>
-      <div>
-         <h3>TrueHue</h3>
-      </div>
-      <div class="socials-icon">
-         <a href="Instagram"><img src="assets/icons/instagram.png" alt="Instagram"></a>
-         <a href="Twitter"><img src="assets/icons/twitter.png" alt="Twitter"></a>
-         <a href="Mail"><img src="assets/icons/mail.png" alt="Mail"></a>
-         <a href="Facebook"><img src="assets/icons/facebook.png" alt="Facebook"></a>
-      </div>
-      <p>TrueHue Copyright &copy; 2025 - All rights reserved. || Meet our team</p>
-   </footer>
+        <div class="feature-section">
+            <!-- WAIT MUNA SA PAG-FEATURED NG MGA FEATURES -->
+            <img src="assets/live_view_filter_sample.png" alt="Live View Filter sample" class="sample-image">
+        </div>
+
+        <div>
+            <p>TrueHue helps make every color recognizable and meaningful.</p>
+        </div>
+
+        <div class="download-TrueHue">
+            <p>Download TrueHue on Android:</p>
+            <a href="https://play.google.com" target="_blank">
+                <img src="assets/icons/google-play-logo.png" alt="Google Play Store" class="app-icon" />
+            </a>
+        </div>
+        </section>
+
+      <section class="blog-section section-layout">
+        <h2>TrueHue for Android</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iste? Ipsam reprehenderit delectus doloribus deserunt alias dignissimos ex harum error soluta natus commodi labore placeat qui, quae sunt? Delectus, ipsum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iste? Ipsam reprehenderit delectus doloribus deserunt alias dignissimos ex harum error soluta natus commodi labore placeat qui, quae sunt? Delectus, ipsum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, iste? Ipsam reprehenderit delectus doloribus deserunt alias dignissimos ex harum error soluta natus commodi labore placeat qui, quae sunt? Delectus, ipsum?</p>
+      </section>
+
+      <section class="howVideo-container">
+         <h2>How To Use The App?</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GA585bdio28?si=6wWXVbB6RNBGSt9Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+      
+      
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <h3>TrueHue</h3>
+            <a href="#"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="assets/icons/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="assets/icons/mail.png" alt="Email"></a>
+            <a href="#"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+        </div>
+        <p>TrueHue Copyright © 2025 - All Rights Reserved | <a href="team.html">Meet our team</a></p>
+    </footer>
 </body>
 </html>

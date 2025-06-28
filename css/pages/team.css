@@ -1,0 +1,80 @@
+.team-section h1 {
+   font-family: 'Encode Sans Condensed', sans-serif;
+   font-weight: 400;
+   text-align: center;
+   font-size: 2.5rem;
+   margin-bottom: 4rem;
+} 
+ 
+.team-container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   gap: 4rem; 
+   justify-content: center; 
+}
+
+.team-member {
+   background-color: #E2EBFF; 
+   border: 1.5px solid #A7C0F7; 
+   border-radius: 1rem;
+   padding: 1rem;
+   width: calc(50% - 2rem); 
+   box-sizing: border-box;
+   font-family: 'Rationale', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #404F87; 
+}
+
+.team-member h3 {
+   margin: 1;
+   font-size: 1.25rem;
+}
+
+.team-member .info {
+   margin: 0;
+   font-size: 0.95rem;
+   line-height: 1.4;
+}
+
+.team-member img {
+   width: 7rem;
+   height: 7rem;
+   object-fit: cover;
+}
+
+.position {
+   font-weight: 400;
+   font-size: 1.2rem;
+   color: #5A619B;
+   text-align: right;
+   opacity: 0.7;
+}
+
+.team-container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.socials-icons {
+   display: flex;
+   gap: 0.5rem;
+   margin-top: 1rem;
+   align-items: center;
+}
+
+.socials-icons img {
+   width: 1.5rem;
+   height: 1.5rem;
+   object-fit: contain;
+   cursor: pointer;
+   transition: transform 0.2s;
+}
+
+.socials-icons img:hover {
+   transform: scale(1.1);
+}
