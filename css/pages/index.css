@@ -46,7 +46,7 @@
     text-align: left;
     margin-bottom: 2rem;
 }
-
+/*
 .feature-section {
     background-color: #BFCDEE;
     width: 600px;
@@ -57,13 +57,46 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}*/
+
+.feature-gallery {
+    z-index: 2;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BFCDEE;
+    position: relative;
+    width: 300px;
+    height: auto;
+    padding: 3rem;
+    overflow: hidden; 
 }
 
-.sample-image {
-    width: 18.75rem;
-    height: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+.feature-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.feature-gallery button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5A619B;
+    cursor: pointer;
+    font-size: 3rem;
+    background: none;
+    border: none;
+}
+
+.feature-gallery .feature-prev {
+    left: 5px;
+}
+
+.feature-gallery .feature-next {
+    right: 5px;
 }
 
 .download-TrueHue {

@@ -13,6 +13,7 @@
        <link rel="stylesheet" href="css/pages/about.css">
        <link rel="stylesheet" href="css/pages/index.css">
        <link rel="stylesheet" href="css/pages/team.css">
+
 </head>
  
 <body>
@@ -37,10 +38,13 @@
       <section class="featured-container section-layout">
         <h2>Pure You, True You</h2>
 
-        <div class="feature-section">
-            <!-- WAIT MUNA SA PAG-FEATURED NG MGA FEATURES -->
-            <img src="assets/live_view_filter_sample.png" alt="Live View Filter sample" class="sample-image">
+        <div class="feature-gallery">
+            <button class="feature-prev" onclick="prevFeature()">❮</button>
+            <img id="featureImage" src="assets/features/live-view.png" alt="Live View Filter Sample">
+            <button class="feature-next" onclick="nextFeature()">❯</button>
         </div>
+
+        <script src="js/index.js"></script>
 
         <div>
             <p>TrueHue helps make every color recognizable and meaningful.</p>
