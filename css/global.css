@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px;
     background-color: #E8EFFF;
     font-family: 'Bellota', sans-serif;
     color: #404F87;
@@ -15,8 +15,9 @@ header {
 }
 
 .logoHeader img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: auto;
+    margin-left: 15rem;
 }
 
 header h1 {
@@ -27,7 +28,7 @@ header h1 {
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0px 15px;
     text-decoration: none;
     color: #404F87;
     font-weight: bold;
@@ -42,13 +43,12 @@ nav a {
     color: #404F87;
     font-weight: bold;
     font-family: 'Bellota', sans-serif;
+    margin-right: 15rem;
 }
 
 body {
     background-color: #F2F6FF;
     color: #404F87;
-    margin: 0;
-    padding: 0;
 }
 
 footer {
