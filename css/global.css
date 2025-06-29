@@ -49,6 +49,8 @@ nav a {
 body {
     background-color: #F2F6FF;
     color: #404F87;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
