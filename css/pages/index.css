@@ -32,7 +32,7 @@
 }
 
 .featured-container {
-    background-color: #E8EFFF;
+    background-color: var(--light-bg);
     font-family: 'Encode Sans Condensed', sans-serif;
     text-align: center;
     justify-items: center;
@@ -40,7 +40,7 @@
     padding: 1%;
     border-radius: 8px;
 }
-
+ 
 .featured-container h2 {
     font-family: 'Bellota', sans-serif;
     text-align: left;
@@ -53,7 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #BFCDEE;
+    background-color: var(--feature-bg);
     position: relative;
     width: 300px;
     height: auto;
@@ -73,7 +73,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    color: #5A619B;
+    color: var(--text-color);
     cursor: pointer;
     font-size: 3rem;
     background: none;

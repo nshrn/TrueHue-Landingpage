@@ -4,7 +4,7 @@
    text-align: center;
    font-size: 2.5rem;
    margin-bottom: 4rem;
-} 
+}  
  
 .team-container {
    display: flex;
@@ -15,8 +15,9 @@
 }
 
 .team-member {
-   background-color: #E2EBFF; 
-   border: 1.5px solid #A7C0F7; 
+   background-color: var(--team-member-bg); 
+   border: 1.5px solid; 
+   border-color: var(--accent-color);
    border-radius: 1rem;
    padding: 1rem;
    width: calc(50% - 2rem); 
@@ -25,7 +26,7 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-   color: #404F87; 
+   color: var(--h-text-color); 
 }
 
 .team-member h3 {
@@ -48,7 +49,7 @@
 .position {
    font-weight: 400;
    font-size: 1.2rem;
-   color: #5A619B;
+   color: var(--text-color);
    text-align: right;
    opacity: 0.7;
 }
