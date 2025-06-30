@@ -8,3 +8,14 @@
     --footer-link: #9CB1E1;
     --team-member-bg: #E2EBFF;
 }
+
+.dark-mode {
+    --h-text-color: #69c9d7;		
+    --text-color: #bed2e1;	
+    --accent-color: #335d6c;		
+    --light-bg: #1d242b;
+    --lighter-bg: #2f313c;
+    --feature-bg: #0d2843;
+    --footer-link: #747a98;
+    --team-member-bg: #2f313c;
+}
