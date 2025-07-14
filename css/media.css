@@ -1,0 +1,80 @@
+@media screen and (max-width: 1024px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-logo {
+        width: 100%;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .section-layout {
+        width: 90%;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 1000px; 
+        height: auto;
+        aspect-ratio: 16 / 9; 
+        display: block;
+        margin: auto;
+        border-radius: 1rem; 
+    }
+
+    .howVideo-container,
+    .whatVideo-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .feature-gallery {
+        width: 80%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team-member {
+        width: 100%;
+    }
+
+    .feature-gallery button {
+        font-size: 2rem;
+    }
+
+    nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    }
+
+    .logoHeader img {
+        margin-left: 0;
+    }
+
+    .cta-button {
+        margin-right: 0;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .section-layout {
+        width: 100%;
+    }
+
+    .about-text p {
+        max-width: 100%;
+    }
+}
