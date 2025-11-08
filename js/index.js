@@ -1,14 +1,20 @@
 const featureImages = [
-    "assets/features/live-view.png",
-    "assets/features/take-photo-camera.png",
-    "assets/features/live-view-filter-spot-image.png",
-    "assets/features/live-view-filter-spot-image-2.png",
-    "assets/features/live-view-filter-recolor-image.png",
-    "assets/features/take-photo.png",
-    "assets/features/upload-photo-gallery.png",
-    "assets/features/upload-photo.png",
-    "assets/features/color-library.png",
-    "assets/features/color-library-game.png"
+    "assets/features/01.png",
+    "assets/features/02.png",
+    "assets/features/03.png",
+    "assets/features/04.png",
+    "assets/features/05.png",
+    "assets/features/06.png",
+    "assets/features/07.png",
+    "assets/features/08.png",
+    "assets/features/09.png",
+    "assets/features/10.png",
+    "assets/features/11.png",
+    "assets/features/12.png",
+    "assets/features/13.png",
+    "assets/features/14.png",
+    "assets/features/15.png",
+    "assets/features/16.png"
 ];
 let currentFeatureIndex = 0;
 
