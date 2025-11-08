@@ -24,12 +24,13 @@
     font-size: 2rem;
 }
 
-.whatVideo-container iframe {
-    width: 800px;
-    height: auto;
-    aspect-ratio: 16 / 9; 
-    border-radius: 1rem;
+.iframe-style {
+  width: 800px;
+  aspect-ratio: 16 / 9;
+  border-radius: 1rem;
+  object-fit: cover;
 }
+
 
 .featured-container {
     background-color: var(--light-bg);
