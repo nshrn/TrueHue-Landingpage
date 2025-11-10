@@ -1,4 +1,3 @@
-/* ===== GENERAL MOBILE FIXES ===== */
 body {
   overflow-x: hidden;
 }
@@ -8,7 +7,6 @@ main {
   box-sizing: border-box;
 }
 
-/* Add padding so text doesn't touch edges */
 section,
 .about-us,
 .blog-section,
@@ -74,6 +72,10 @@ section,
     text-align: center;
   }
 
+  .about-logo img {
+    max-width: 250px;
+  }
+
   .about-text p {
     max-width: 100%;
     padding: 0.5rem 0;
@@ -124,6 +126,10 @@ section,
     padding: 0.5rem 1rem;
   }
 
+  .about-logo img {
+    max-width: 180px;
+  }
+
   p {
     font-size: 0.95rem;
     line-height: 1.5;
@@ -143,7 +149,7 @@ section,
   }
 }
 
-/* ===== HAMBURGER MENU (unchanged but responsive) ===== */
+/* ===== HAMBURGER MENU ===== */
 .hamburger {
   display: none;
   flex-direction: column;
