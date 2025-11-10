@@ -141,7 +141,12 @@
   .feature-gallery .feature-next {
     right: 0.5rem; /* added gap from edge */
   }
+
+  .section-layout {
+    width: 90%
+  }
 }
+
 
 /* ===== Small Phones (480px and below) ===== */
 @media (max-width: 480px) {
@@ -235,6 +240,10 @@
 
   .feature-gallery .feature-next {
     right: 0.4rem;
+  }
+
+  .section-layout {
+    width: 90%
   }
 }
 
@@ -358,6 +367,10 @@
   footer .social-icons img {
     width: 20px;
     margin: 8px;
+  }
+
+  .section-layout {
+    width: 90%
   }
 }
 
