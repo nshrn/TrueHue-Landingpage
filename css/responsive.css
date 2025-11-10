@@ -45,7 +45,6 @@
     font-weight: 500;
   }
 
-  /* Dark mode button and Get App button spacing */
   nav img#mode-toggle {
     width: 28px;
     height: 28px;
@@ -170,7 +169,7 @@
   }
 
   nav.active {
-    right: 0; /* slides in */
+    right: 0; 
   }
 
   nav a {
