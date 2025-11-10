@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Rationale&display=swap');
 
-/* main.homepage{
-    overflow-x: hidden;
-} */
-
 .home-page {
    display: block;
    justify-items: center;
@@ -91,17 +87,18 @@
 
 .download-button {
     display: inline-block;
-    background-color: #0052cc; /* darker blue tone */
+    background-color: #0052cc; 
     color: #ffffff;
     padding: 0.75rem 1.5rem;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 2rem;
 }
 
 .download-button:hover {
-    background-color: #003d99; /* even darker on hover */
+    background-color: #003d99; 
     transform: scale(1.05);
 }
 
