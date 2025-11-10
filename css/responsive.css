@@ -118,6 +118,29 @@
   .socials-icons img:hover {
     transform: scale(1.1);
   }
+
+  /* FEATURE GALLERY ADJUSTMENTS */
+  .feature-gallery {
+    width: 90%;
+    padding: 1.5rem 2rem;
+  }
+
+  .feature-gallery img {
+    width: calc(100% - 3.5rem); /* Leaves space for buttons */
+    border-radius: 10px;
+  }
+
+  .feature-gallery button {
+    font-size: 1.8rem;
+  }
+
+  .feature-gallery .feature-prev {
+    left: 0.5rem; /* added gap from edge */
+  }
+
+  .feature-gallery .feature-next {
+    right: 0.5rem; /* added gap from edge */
+  }
 }
 
 /* ===== Small Phones (480px and below) ===== */
@@ -189,6 +212,29 @@
   footer .social-icons img {
     width: 22px;
     margin: 10px;
+  }
+
+  /* FEATURE GALLERY ADJUSTMENTS */
+  .feature-gallery {
+    width: 95%;
+    padding: 1.2rem 1.8rem;
+  }
+
+  .feature-gallery img {
+    width: calc(100% - 3rem);
+    border-radius: 10px;
+  }
+
+  .feature-gallery button {
+    font-size: 1.6rem;
+  }
+
+  .feature-gallery .feature-prev {
+    left: 0.4rem;
+  }
+
+  .feature-gallery .feature-next {
+    right: 0.4rem;
   }
 }
 
@@ -276,12 +322,24 @@
   }
 
   .feature-gallery {
-    width: 90%;
-    padding: 1.5rem;
+    width: 96%;
+    padding: 1rem 1.5rem;
+  }
+
+  .feature-gallery img {
+    width: calc(100% - 2.8rem);
   }
 
   .feature-gallery button {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  .feature-gallery .feature-prev {
+    left: 0.35rem;
+  }
+
+  .feature-gallery .feature-next {
+    right: 0.35rem;
   }
 
   .download-button {
