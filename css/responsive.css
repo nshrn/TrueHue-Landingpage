@@ -5,7 +5,6 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    height: 40px;
     text-align: center;
   }
 
@@ -76,6 +75,48 @@
     flex-direction: column;
     gap: 0.5rem;
   }
+
+  /* Team Section - Baseline Design */
+  .team-member {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .team-member img {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .team-member h3 {
+    font-size: 1.2rem;
+  }
+
+  .info {
+    font-size: 0.95rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+
+  .socials-icons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .socials-icons img {
+    width: 1.4rem;
+    height: 1.4rem;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+
+  .socials-icons img:hover {
+    transform: scale(1.1);
+  }
 }
 
 /* ===== Small Phones (480px and below) ===== */
@@ -89,7 +130,7 @@
   }
 
   .about-logo img {
-    max-width: 250px;
+    max-width: 220px;
   }
 
   nav {
@@ -102,12 +143,160 @@
   }
 
   p {
-    font-size: 0.95rem;
-
+    font-size: 0.9rem;
   }
 
   h2 {
     font-size: 1.3rem;
+  }
+
+  .team-member {
+    padding: 0.9rem;
+  }
+
+  .team-member img {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .team-member h3 {
+    font-size: 1.05rem;
+  }
+
+  .info {
+    font-size: 0.9rem;
+  }
+
+  .position {
+    font-size: 0.95rem;
+  }
+
+  .socials-icons {
+    gap: 0.4rem;
+  }
+
+  .socials-icons img {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  footer .social-icons img {
+    width: 22px;
+    margin: 10px;
+  }
+}
+
+/* ===== iPhone 13 and similar (390px and below) ===== */
+@media (max-width: 390px) {
+  header {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .logoHeader img {
+    width: 38px;
+  }
+
+  .logoHeader h1 {
+    font-size: 1.3rem;
+  }
+
+  nav a {
+    font-size: 0.85rem;
+  }
+
+  .cta-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 12px;
+  }
+
+  .about-text p {
+    padding: 0 1rem;
+    font-size: 0.85rem;
+  }
+
+  .about-logo img {
+    max-width: 200px;
+  }
+
+  .team-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .team-member {
+    padding: 0.8rem;
+  }
+
+  .team-member img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .team-member h3 {
+    font-size: 1rem;
+  }
+
+  .info {
+    font-size: 0.85rem;
+  }
+
+  .position {
+    font-size: 0.9rem;
+  }
+
+  .socials-icons {
+    gap: 0.3rem;
+  }
+
+  .socials-icons img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .iframe-style,
+  video {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .feature-gallery {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .feature-gallery button {
+    font-size: 1.8rem;
+  }
+
+  .download-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  footer {
+    padding: 0.8rem;
+  }
+
+  footer p {
+    font-size: 0.75rem;
+  }
+
+  footer .social-icons img {
+    width: 20px;
+    margin: 8px;
   }
 }
 
@@ -140,11 +329,6 @@
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-.socials-icons img {
-    width: 1.3rem;
-    height: 1.3rem;
-  }
-
 /* ===== MOBILE NAV MENU ===== */
 @media (max-width: 768px) {
   .hamburger {
@@ -158,7 +342,7 @@
   nav {
     position: fixed;
     top: 0;
-    right: -100%; 
+    right: -100%;
     height: 100vh;
     width: 70%;
     max-width: 300px;
@@ -174,121 +358,10 @@
   }
 
   nav.active {
-    right: 0; 
+    right: 0;
   }
 
   nav a {
     font-size: 1.2rem;
-  }
-}
-
-/* ===== max-width: 390px ===== */
-@media (max-width: 390px) {
-  header {
-    padding: 0.8rem 0.5rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logoHeader img {
-    width: 38px;
-    height: auto;
-  }
-
-  .logoHeader h1 {
-    font-size: 1.3rem;
-  }
-  
-  .about-logo img {
-    max-width: 250px;
-  }
-
-  nav a {
-    font-size: 0.85rem;
-  }
-
-  .cta-button {
-    font-size: 0.85rem;
-    padding: 0.4rem 0.9rem;
-    border-radius: 12px;
-  }
-
-  .about-text p {
-    padding: 0 1rem;
-    font-size: 0.9rem;
-  }
-
-  .about-logo img {
-    max-width: 200px;
-  }
-
-  .team-button {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
-  }
-
-  .team-member {
-    width: 100%;
-    padding: 0.8rem;
-  }
-
-  .team-member img {
-    width: 6rem;
-    height: 6rem;
-  }
-
-  .team-member h3 {
-    font-size: 1rem;
-  }
-
-  .position {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .socials-icons img {
-    width: 1rem;
-    height: 1rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
-
-  .iframe-style,
-  video {
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  .feature-gallery {
-    width: 90%;
-    padding: 1.5rem;
-  }
-
-  .feature-gallery button {
-    font-size: 1.8rem;
-  }
-
-  .download-button {
-    padding: 0.6rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  footer {
-    padding: 0.8rem;
-  }
-
-  footer p {
-    font-size: 0.75rem;
-  }
-
-  footer .social-icons img {
-    width: 20px;
-    margin: 10px;
   }
 }

@@ -62,7 +62,7 @@
    justify-content: space-between;
 }
 
-.socials-icons {
+/* .socials-icons {
    display: flex;
    gap: 0.5rem;
    margin-top: 1rem;
@@ -79,4 +79,24 @@
 
 .socials-icons img:hover {
    transform: scale(1.1);
+} */
+
+.socials-icons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.socials-icons img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.socials-icons img:hover {
+  transform: scale(1.1);
 }
