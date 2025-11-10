@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="css/pages/team.css">
         <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/hamburger.js"></script>
+
 </head>
   
 <body>
@@ -20,16 +22,24 @@
             <img src="assets/icons/logo.png" alt="TrueHue Logo">
             <h1>TrueHue</h1>
         </div>
-        <nav>
+        
+        <!-- Hamburger icon-->
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <nav id="mobileMenu">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <img src="assets/icons/dark-mode-btn.png" alt="Toggle dark mode" id="mode-toggle">
             <a href="https://drive.google.com/drive/folders/1yvIWeOq_iWHZy9E6bGuLsGQHIFLm3HVX" target="_blank" class="cta-button">Get the App</a> 
         </nav>
-
+        
         <script src="js/toggle-theme.js"></script>
-
     </header>
+
     <main class="home-page">
 
       <section class="whatVideo-container">

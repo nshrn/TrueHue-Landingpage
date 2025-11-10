@@ -54,9 +54,21 @@ main {
     max-width: 500px;
 }
 
-.team-button {
+/* .team-button {
     margin-top: 20px;
     display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--accent-color);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--h-text-color);
+    font-family: 'Bellota', sans-serif;
+} */
+
+.team-button {
+    margin: 20px auto 0;
+    display: block;
+    width: fit-content;
     padding: 10px 15px;
     background-color: var(--accent-color);
     border-radius: 12px;

@@ -6,6 +6,7 @@ header {
     background-color: var(--light-bg);
     font-family: 'Bellota', sans-serif;
     color: var(--h-text-color);
+    padding: .5rem 0;
 }
 
 .logoHeader {
@@ -91,4 +92,21 @@ footer p {
     font-size: 12px;
     color: var(--footer-link);
     font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--light-bg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    padding-top: 70px; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
