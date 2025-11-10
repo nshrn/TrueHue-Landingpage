@@ -1,96 +1,118 @@
-/* ===== Tablet and Mobile (768px and below) ===== */
-@media (max-width: 768px) {
-  /* Header container styling */
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    height: 40px;
-    text-align: center;
-  }
+/* ===== GENERAL MOBILE FIXES ===== */
+body {
+  overflow-x: hidden;
+}
 
-  /* Align logo and text horizontally */
-  .logoHeader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.6rem;
-    margin-bottom: 0.8rem;
-  }
+main {
+  padding: 1rem;
+  box-sizing: border-box;
+}
 
-  .logoHeader img {
-    width: 50px;
-    height: auto;
-  }
+/* Add padding so text doesn't touch edges */
+section,
+.about-us,
+.blog-section,
+.team-section,
+.featured-container,
+.howVideo-container,
+.whatVideo-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
 
-  .logoHeader h1 {
-    font-size: 1.6rem;
-  }
-
-  /* Navigation bar becomes a single row underneath */
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.8rem;
-  }
-
-  nav a {
-    text-decoration: none;
-    font-size: 1rem;
-    color: inherit;
-    font-weight: 500;
-  }
-
-  /* Dark mode button and Get App button spacing */
-  nav img#mode-toggle {
-    width: 28px;
-    height: 28px;
-    cursor: pointer;
-  }
-
-  .cta-button {
-    padding: 0.5rem 1rem;
-    font-size: 0.95rem;
-  }
-
-  /* General layout adjustments */
-  main,
+/* ===== Tablet and Small Laptop (≤1024px) ===== */
+@media (max-width: 1024px) {
   .section-layout {
-    padding: 1.5rem 1rem;
+    width: 95%;
   }
 
-  video,
-  .iframe-style {
+  .iframe-style,
+  video {
     width: 100%;
-    height: auto;
+    max-width: 100%;
+    border-radius: 1rem;
   }
 
-  footer {
-    text-align: center;
-    padding: 1rem;
+  .feature-gallery {
+    width: 90%;
   }
 
-  footer .social-icons {
-    flex-direction: column;
-    gap: 0.5rem;
+  header h1 {
+    font-size: 2rem;
   }
 }
 
-/* ===== Small Phones (480px and below) ===== */
-@media (max-width: 480px) {
+/* ===== Tablets and Large Phones (≤768px) ===== */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0.5rem;
+  }
+
   .logoHeader img {
-    width: 40px;
+    margin-left: 0;
+  }
+
+  .cta-button {
+    margin-right: 0;
+    margin-top: 0.5rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text p {
+    max-width: 100%;
+    padding: 0.5rem 0;
+    text-align: justify;
+  }
+
+  .team-member {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .feature-gallery button {
+    font-size: 2rem;
+  }
+
+  .section-layout {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+}
+
+/* ===== Small Phones (≤480px) ===== */
+@media (max-width: 480px) {
+  header {
+    padding: 0.8rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logoHeader img {
+    width: 45px;
   }
 
   .logoHeader h1 {
     font-size: 1.4rem;
-  }
-
-  nav {
-    gap: 0.6rem;
   }
 
   nav a,
@@ -98,16 +120,30 @@
     font-size: 0.9rem;
   }
 
+  .cta-button {
+    padding: 0.5rem 1rem;
+  }
+
   p {
     font-size: 0.95rem;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 1.3rem;
   }
+
+  footer {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+
+  footer .social-icons img {
+    width: 20px;
+  }
 }
 
-/* ====== HAMBURGER MENU STYLES ====== */
+/* ===== HAMBURGER MENU (unchanged but responsive) ===== */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -137,7 +173,7 @@
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* ===== MOBILE NAV MENU ===== */
+/* ===== MOBILE NAVIGATION MENU ===== */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -150,7 +186,7 @@
   nav {
     position: fixed;
     top: 0;
-    right: -100%; /* hidden by default */
+    right: -100%;
     height: 100vh;
     width: 70%;
     max-width: 300px;
@@ -166,7 +202,7 @@
   }
 
   nav.active {
-    right: 0; /* slides in */
+    right: 0;
   }
 
   nav a {
