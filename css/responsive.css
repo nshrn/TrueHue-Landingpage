@@ -176,3 +176,109 @@
     font-size: 1.2rem;
   }
 }
+
+/* ===== max-width: 390px ===== */
+@media (max-width: 390px) {
+  header {
+    padding: 0.8rem 0.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logoHeader img {
+    width: 38px;
+    height: auto;
+  }
+
+  .logoHeader h1 {
+    font-size: 1.3rem;
+  }
+  
+  .about-logo img {
+    max-width: 250px;
+  }
+
+  nav a {
+    font-size: 0.85rem;
+  }
+
+  .cta-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 12px;
+  }
+
+  .about-text p {
+    padding: 0 1rem;
+    font-size: 0.9rem;
+  }
+
+  .about-logo img {
+    max-width: 200px;
+  }
+
+  .team-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .team-member {
+    width: 100%;
+    padding: 0.8rem;
+  }
+
+  .team-member img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .team-member h3 {
+    font-size: 1rem;
+  }
+
+  .position {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .iframe-style,
+  video {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .feature-gallery {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .feature-gallery button {
+    font-size: 1.8rem;
+  }
+
+  .download-button {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    padding: 0.8rem;
+  }
+
+  footer p {
+    font-size: 0.75rem;
+  }
+
+  footer .social-icons img {
+    width: 20px;
+    margin: 10px;
+  }
+}
