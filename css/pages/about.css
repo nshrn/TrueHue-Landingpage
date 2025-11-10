@@ -52,6 +52,7 @@ main {
     margin-bottom: 1rem;
     font-family: 'Encode Sans Condensed', sans-serif;
     max-width: 500px;
+    padding: 0 1.5rem;
 }
 
 /* .team-button {
