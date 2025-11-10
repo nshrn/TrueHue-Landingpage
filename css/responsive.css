@@ -121,6 +121,9 @@
 
   /* FEATURE GALLERY ADJUSTMENTS */
   .feature-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
     padding: 1.5rem 2rem;
   }
@@ -221,6 +224,9 @@
 
   /* FEATURE GALLERY ADJUSTMENTS */
   .feature-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
     padding: 1.2rem 1.8rem;
   }
@@ -331,6 +337,9 @@
   }
 
   .feature-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
     padding: 1rem 1.5rem;
   }
