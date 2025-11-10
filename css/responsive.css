@@ -124,6 +124,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     width: 60%;
     padding: 1.5rem 2rem;
   }
@@ -227,6 +228,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     width: 60%;
     padding: 1.2rem 1.8rem;
   }
@@ -340,6 +342,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     width: 60%;
     padding: 1rem 1.5rem;
   }
